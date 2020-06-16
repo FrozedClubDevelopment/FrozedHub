@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8f66f028-644a-4c9e-99d1-94137fbefbef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -77,7 +79,7 @@
       <workItem from="1591756409876" duration="4942000" />
       <workItem from="1591811021864" duration="23960000" />
       <workItem from="1591898616216" duration="10590000" />
-      <workItem from="1592336587592" duration="822000" />
+      <workItem from="1592336587592" duration="881000" />
     </task>
     <servers />
   </component>
@@ -121,10 +123,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="724" y="218" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1591903012063" />
-    <state x="647" y="261" width="626" height="518" key="find.popup" timestamp="1592336925848">
+    <state x="647" y="261" width="626" height="518" key="find.popup" timestamp="1592337467270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="647" y="261" width="626" height="518" key="find.popup/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1592336925848" />
+    <state x="647" y="261" width="626" height="518" key="find.popup/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1592337467270" />
     <state x="342" y="103" key="new project wizard" timestamp="1591905404586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
