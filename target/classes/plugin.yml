@@ -1,0 +1,6 @@
+name: FrozedHub
+authors:
+  - Elb1to
+  - FrozedClubDevelopment
+version: 1.0-SNAPSHOT
+main: club.frozed.frozedhub.FrozedHub
