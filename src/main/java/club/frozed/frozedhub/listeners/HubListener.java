@@ -1,5 +1,6 @@
 package club.frozed.frozedhub.listeners;
 
+import club.frozed.frozedhub.FrozedHub;
 import club.frozed.frozedhub.utils.ItemBuilder;
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
@@ -44,6 +45,7 @@ public class HubListener implements Listener {
 
         p.getInventory().setItem(1, new ItemBuilder(Material.WATCH, 1).displayName(ChatColor.translateAlternateColorCodes('&', "&7» &b&lSelector &7«")).build());
         p.getInventory().setItem(7, new ItemBuilder(Material.ENDER_PEARL, 1).displayName(ChatColor.translateAlternateColorCodes('&', "&7» &b&lEnderbutt &7«")).build());
+        p.getInventory().setItem(4, new ItemBuilder(Material.CHEST, 1).displayName(ChatColor.translateAlternateColorCodes('&', "&7» &b&lCosmetics &7«")).build());
     }
 
     @EventHandler
