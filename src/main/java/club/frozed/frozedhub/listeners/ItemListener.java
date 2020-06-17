@@ -28,7 +28,6 @@ public class ItemListener implements Listener {
                     if (player != null) {
                         player.teleport(player.getLocation().add(0.0D, 0.5D, 0.0D));
                     }
-
                     this.cancel();
                 }
 
@@ -63,5 +62,4 @@ public class ItemListener implements Listener {
             }
         }
     }
-
 }
