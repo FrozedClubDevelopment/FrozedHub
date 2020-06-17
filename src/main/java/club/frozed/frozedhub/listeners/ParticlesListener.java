@@ -19,6 +19,9 @@ public class ParticlesListener implements Listener {
 
     public void openInventory(Player p) {
         Inventory inv = Bukkit.createInventory(null, 36, Messages.CC("&8Particle Effects"));
+        for (int i = 0; i < 35; i++) {
+            inv.setItem(i, new ItemBuilder(Material.STAINED_GLASS_PANE, 1).displayName(net.md_5.bungee.api.ChatColor.GREEN + " ").data((short) 15).build());
+        }
 
         ItemBuilder redstoneParticles = new ItemBuilder(Material.REDSTONE).displayName(ChatColor.GREEN + "Redstone Particles");
         redstoneParticles.lore(
