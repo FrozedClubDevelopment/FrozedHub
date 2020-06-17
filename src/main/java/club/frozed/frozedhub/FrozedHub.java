@@ -1,6 +1,8 @@
 package club.frozed.frozedhub;
 
 import club.frozed.frozedhub.commands.Commands;
+import club.frozed.frozedhub.listeners.ParticlesListener;
+import club.frozed.frozedhub.listeners.DoubleJumpListener;
 import club.frozed.frozedhub.listeners.HubListener;
 import club.frozed.frozedhub.listeners.ItemListener;
 import club.frozed.frozedhub.queue.QueueManager;
@@ -37,6 +39,8 @@ public class FrozedHub extends JavaPlugin implements PluginMessageListener {
         Bukkit.getPluginManager().registerEvents(new Selector(), this);
         Bukkit.getPluginManager().registerEvents(new HubListener(), this);
         Bukkit.getPluginManager().registerEvents(new ItemListener(), this);
+        Bukkit.getPluginManager().registerEvents(new ParticlesListener(), this);
+        Bukkit.getPluginManager().registerEvents(new DoubleJumpListener(), this);
         this.commandFramework = new CommandFramework(this);
         commandFramework.registerCommands(new Commands());
         commandFramework.registerHelp();
