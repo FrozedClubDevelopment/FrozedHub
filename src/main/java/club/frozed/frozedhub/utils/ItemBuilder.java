@@ -11,6 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ItemBuilder {
+
     private ItemStack stack;
     private ItemMeta meta;
 
@@ -55,7 +56,7 @@ public class ItemBuilder {
 
         boolean hasLore;
         List lore = (hasLore = this.meta.hasLore()) ? this.meta.getLore() : new ArrayList();
-        ((List) lore).add(hasLore ? ((List) lore).size() : 0, line);
+        lore.add(hasLore ? lore.size() : 0, line);
         this.lore(line);
         return this;
     }
