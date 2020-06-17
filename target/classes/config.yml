@@ -1,6 +1,5 @@
 scoreboard:
   title: "&b&lFrozed Club &3[Dev]"
-  rankcolored: false
   normal:
     - "&7&m--------------------"
     - "&bOnline:"
@@ -8,20 +7,6 @@ scoreboard:
     - ""
     - "&bRank:"
     - "%rank%"
-    - ""
-    - "&bdev.frozed.club"
-    - "&7&m--------------------"
-  queue:
-    - "&7&m--------------------"
-    - "&bOnline:"
-    - "%players%"
-    - ""
-    - "&bRank:"
-    - "%rank%"
-    - ""
-    - "&7Queued for"
-    - "&b%queue%"
-    - "&bPosition: &f#%place% of %total%"
     - ""
     - "&bdev.frozed.club"
     - "&7&m--------------------"
