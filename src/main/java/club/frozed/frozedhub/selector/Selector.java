@@ -13,7 +13,6 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.Inventory;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,11 +20,9 @@ public class Selector implements Listener {
 
     public void openInventory(Player p) {
         Inventory inv = Bukkit.createInventory(null, 27, "Select a server to join");
-        for (int i = 0; i < 27; i++) {
-            inv.setItem(i, new ItemBuilder(Material.STAINED_GLASS_PANE, 1)
-                    .displayName(ChatColor.GREEN + " ")
-                    .data((short) 15).build());
-        }
+        /*for (int i = 0; i < 27; i++) {
+            inv.setItem(i, new ItemBuilder(Material.STAINED_GLASS_PANE, 1).displayName(ChatColor.GREEN + " ").data((short) 15).build());
+        }*/
 
         inv.setItem(12, new ItemBuilder(Material.CHEST, 1)
                 .displayName(ChatColor.AQUA + ChatColor.BOLD.toString() + "FrozedSG")
